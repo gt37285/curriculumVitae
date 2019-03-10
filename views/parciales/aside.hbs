@@ -1,0 +1,54 @@
+<aside class="aside">
+        <section class="img">
+            <img src="{{ foto }}" alt="">
+            <p class="nombre">{{ getCapitalizado nombre }}</p>
+        </section>
+        <section class="tools">
+            <p> <i class="fa fa-tools icono"></i> <span>{{ area }}</span> </p>
+            <p> <i class="fa fa-home icono"></i> <span>{{ ciudad }}</span> </p>
+            <p> <i class="fa fa-envelope icono"></i> <span>{{ email }}</span> </p>
+            <p> <i class="fa fa-phone icono"></i> <span>{{ telefono }}</span> </p>
+            <hr>
+        </section>
+        
+        <p style="padding:.5em 1em"> <i class="fa fa-asterisk icono"></i> <span>Habilidades</span> </p> 
+
+        <section class="points">
+            
+            <p class="op"> Pasarela </p>
+            <div class="container">
+                <div class="light" style="width:90%"> 90% </div>
+            </div>
+            <p class="op"> Maquillaje </p>
+            <div class="container">
+                <div class="light" style="width:80%"> 80% </div>
+            </div>
+            <p class="op"> Moda </p>
+            <div class="container">
+                <div class="light" style="width:75%"> 75% </div>
+            </div>
+            <p class="op"> Cultura Local </p>
+            <div class="container">
+                <div class="light" style="width:75%"> 75% </div>
+            </div>
+            <p class="op"> Estilo </p>
+            <div class="container">
+                <div class="light" style="width:70%">  70% </div>
+            </div>
+        </section><br>
+        <hr>
+
+        <p style="padding:.5em 1em"> <i class="fa fa-globe-americas icono"></i> <span>Idiomas</span> </p> 
+
+        <section class="lenguaje">
+            <p class="op"> Español </p>
+            <div class="container">
+                <div class="light" style="width:{{espanol}}">{{ espanol }}</div>
+            </div>
+            <p class="op"> Ingles </p>
+            <div class="container">
+                <div class="light" style="width:{{ingles}}">{{ingles}}</div>
+            </div>
+        </section>
+        <br><br>
+    </aside>
